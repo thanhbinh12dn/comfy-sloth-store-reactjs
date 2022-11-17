@@ -1,0 +1,24 @@
+.main {
+    
+}
+
+.main-head {
+    height: 49px;
+    border-bottom: 1px solid var(--clr-grey-8);
+    .content {
+        display: grid;
+        grid-template-columns: 316px 1fr 1fr 1fr auto;
+        justify-items: center;
+        column-gap: 1rem;
+
+        span {
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+
+    h5 {
+        color: var(--clr-grey-5);
+        font-weight: 400;
+    }
+}

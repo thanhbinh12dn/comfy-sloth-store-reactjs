@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-black);
+    height: 5rem;
+}
+
+.copyright {
+    color: var(--clr-white);
+    font-weight: 400;
+    text-transform: none;
+    margin: 0.1rem;
+    line-height: 1.25;
+
+    span {
+        color: var(--clr-primary-5);
+    }
+}
